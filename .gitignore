@@ -1,0 +1,28 @@
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# ===== Go =====
+# compiled binaries (adjust names if your builds output specific files)
+authority/authority
+checks/checks
+*.exe
+*.out
+vendor/
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===== Environment / secrets =====
+.env
+*.local
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
